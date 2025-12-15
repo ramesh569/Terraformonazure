@@ -81,3 +81,14 @@ data:
           receivers: [filelog]
           processors: [memory_limiter, batch]
           exporters: [otlp, debug]
+
+
+- type: regex_parser
+  id: parser-azdo
+  regex: '^\[(?P<timestamp>[0-9]{4}-[0-9]{2}-[0-9]{2} [0-9]{2}:[0-9]{2}:[0-9]{2}Z)\s+(?P<severity>INFO|WARN|VERB|ERROR)\s+(?P<component>[^\]]+)\]\s+(?P<message>[\s\S]*)$'
+  timestamp:
+    parse_from: attributes.timestamp
+    layout_type: gotime
+    layout: '2006-01-02 15:04:05Z'
+  on_error: send
+  output: azdo-severity

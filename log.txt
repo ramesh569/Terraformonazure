@@ -1,0 +1,182 @@
+[2025-12-15 11:58:13Z VERB CapabilitiesManager] Entering Initialize
+[2025-12-15 11:58:13Z VERB CapabilitiesManager] Entering GetCapabilitiesAsync
+[2025-12-15 11:58:13Z VERB ExtensionManager] Entering Initialize
+[2025-12-15 11:58:13Z INFO ExtensionManager] Getting extensions for interface: '{0}'
+[2025-12-15 11:58:13Z INFO ExtensionManager] Creating instance: Microsoft.VisualStudio.Services.Agent.Capabilities.AgentCapabilitiesProvider, Microsoft.VisualStudio.Service
+s.Agent
+[2025-12-15 11:58:13Z VERB AgentCapabilitiesProvider] Entering Initialize
+[2025-12-15 11:58:13Z INFO ExtensionManager] Creating instance: Microsoft.VisualStudio.Services.Agent.Capabilities.EnvironmentCapabilitiesProvider, Microsoft.VisualStudio.S
+ervices.Agent
+[2025-12-15 11:58:13Z VERB EnvironmentCapabilitiesProvider] Entering Initialize
+[2025-12-15 11:58:13Z INFO ExtensionManager] Creating instance: Microsoft.VisualStudio.Services.Agent.Capabilities.NixCapabilitiesProvider, Microsoft.VisualStudio.Services.
+Agent
+[2025-12-15 11:58:13Z VERB NixCapabilitiesProvider] Entering Initialize
+[2025-12-15 11:58:13Z INFO ExtensionManager] Creating instance: Microsoft.VisualStudio.Services.Agent.Capabilities.UserCapabilitiesProvider, Microsoft.VisualStudio.Services
+.Agent
+[2025-12-15 11:58:13Z VERB UserCapabilitiesProvider] Entering Initialize
+[2025-12-15 11:58:13Z VERB EnvironmentCapabilitiesProvider] Entering GetCapabilitiesAsync
+[2025-12-15 11:58:13Z INFO EnvironmentCapabilitiesProvider] Ignore: 'AZP_TOKEN'
+[2025-12-15 11:58:13Z INFO EnvironmentCapabilitiesProvider] Ignore: 'AZP_AWS_TOKEN'
+[2025-12-15 11:58:13Z INFO EnvironmentCapabilitiesProvider] Ignore: 'AZP_TOKEN_FILE'
+[2025-12-15 11:58:13Z INFO EnvironmentCapabilitiesProvider] Adding '_': '/azp/bin/Agent.Listener'
+[2025-12-15 11:58:13Z INFO EnvironmentCapabilitiesProvider] Adding 'AGENT_IMAGE_NAME': 'linux-java'
+[2025-12-15 11:58:13Z INFO EnvironmentCapabilitiesProvider] Adding 'AGENT_IMAGE_VERSION': '20251212.3'
+[2025-12-15 11:58:13Z INFO EnvironmentCapabilitiesProvider] Adding 'AGENT_IMAGE_VERSION_BASE': '20251211.3'
+[2025-12-15 11:58:13Z INFO EnvironmentCapabilitiesProvider] Adding 'AGENT_POOLNAME': 'Shared-EU-Container-Linux-Java-S-Dev'
+[2025-12-15 11:58:13Z INFO EnvironmentCapabilitiesProvider] Adding 'ANT_HOME': '/usr/local/ant'
+[2025-12-15 11:58:13Z INFO EnvironmentCapabilitiesProvider] Adding 'AZP_POOL': 'Shared-EU-Container-Linux-Java-S-Dev'
+[2025-12-15 11:58:13Z INFO EnvironmentCapabilitiesProvider] Adding 'AZP_URL': 'https://dev.azure.com/Raboweb'
+[2025-12-15 11:58:13Z INFO EnvironmentCapabilitiesProvider] Adding 'AZURE_AUTHORITY_HOST': 'https://login.microsoftonline.com/'
+[2025-12-15 11:58:13Z INFO EnvironmentCapabilitiesProvider] Adding 'AZURE_CLIENT_ID': '0fe305a8-d8de-452b-814d-bd30df4acb0d'
+[2025-12-15 11:58:13Z INFO EnvironmentCapabilitiesProvider] Adding 'AZURE_FEDERATED_TOKEN_FILE': '/var/run/secrets/azure/tokens/azure-identity-token'
+[2025-12-15 11:58:13Z INFO EnvironmentCapabilitiesProvider] Adding 'AZURE_TENANT_ID': '6e93a626-8aca-4dc1-9191-ce291b4b75a1'
+[2025-12-15 11:58:13Z INFO EnvironmentCapabilitiesProvider] Adding 'azureps': 'True'
+[2025-12-15 11:58:13Z INFO EnvironmentCapabilitiesProvider] Adding 'CF_PLUGIN_HOME': '/etc/pcf8'
+[2025-12-15 11:58:13Z INFO EnvironmentCapabilitiesProvider] Adding 'DOTNET_BUNDLE_EXTRACT_BASE_DIR': '/home/AzDevOps/.cache/dotnet_bundle_extract'
+[2025-12-15 11:58:13Z INFO EnvironmentCapabilitiesProvider] Adding 'HOME': '/home/AzDevOps'
+[2025-12-15 11:58:13Z INFO EnvironmentCapabilitiesProvider] Adding 'HOSTNAME': 'k8s-linux-scaledjob-dev-java-raboweb-srzpk-ql7t6'
+[2025-12-15 11:58:13Z INFO EnvironmentCapabilitiesProvider] Adding 'JAVA_HOME': '/usr/lib/jvm/temurin-17-jdk-amd64'
+[2025-12-15 11:58:13Z INFO EnvironmentCapabilitiesProvider] Adding 'JAVA_HOME_11_X64': '/usr/lib/jvm/temurin-11-jdk-amd64'
+[2025-12-15 11:58:13Z INFO EnvironmentCapabilitiesProvider] Adding 'JAVA_HOME_17_X64': '/usr/lib/jvm/temurin-17-jdk-amd64'
+[2025-12-15 11:58:13Z INFO EnvironmentCapabilitiesProvider] Adding 'JAVA_HOME_21_X64': '/usr/lib/jvm/temurin-21-jdk-amd64'
+[2025-12-15 11:58:13Z INFO EnvironmentCapabilitiesProvider] Adding 'JAVA_HOME_25_X64': '/usr/lib/jvm/temurin-25-jdk-amd64'
+[2025-12-15 11:58:13Z INFO EnvironmentCapabilitiesProvider] Adding 'JAVA_HOME_8_X64': '/usr/lib/jvm/temurin-8-jdk-amd64'
+[2025-12-15 11:58:13Z INFO EnvironmentCapabilitiesProvider] Adding 'KUBERNETES_PORT': 'tcp://10.99.0.1:443'
+[2025-12-15 11:58:13Z INFO EnvironmentCapabilitiesProvider] Adding 'KUBERNETES_PORT_443_TCP': 'tcp://10.99.0.1:443'
+[2025-12-15 11:58:13Z INFO EnvironmentCapabilitiesProvider] Adding 'KUBERNETES_PORT_443_TCP_ADDR': '10.99.0.1'
+[2025-12-15 11:58:13Z INFO EnvironmentCapabilitiesProvider] Adding 'KUBERNETES_PORT_443_TCP_PORT': '443'
+[2025-12-15 11:58:13Z INFO EnvironmentCapabilitiesProvider] Adding 'KUBERNETES_PORT_443_TCP_PROTO': 'tcp'
+[2025-12-15 11:58:13Z INFO EnvironmentCapabilitiesProvider] Adding 'KUBERNETES_SERVICE_HOST': '10.99.0.1'
+[2025-12-15 11:58:13Z INFO EnvironmentCapabilitiesProvider] Adding 'KUBERNETES_SERVICE_PORT': '443'
+[2025-12-15 11:58:13Z INFO EnvironmentCapabilitiesProvider] Adding 'KUBERNETES_SERVICE_PORT_HTTPS': '443'
+[2025-12-15 11:58:13Z INFO EnvironmentCapabilitiesProvider] Adding 'LANG': 'en_US.UTF-8'
+[2025-12-15 11:58:13Z INFO EnvironmentCapabilitiesProvider] Adding 'LANGUAGE': 'en_US:en'
+[2025-12-15 11:58:13Z INFO EnvironmentCapabilitiesProvider] Adding 'LC_ALL': 'en_US.UTF-8'
+[2025-12-15 11:58:13Z INFO EnvironmentCapabilitiesProvider] Adding 'OLDPWD': '/azp'
+[2025-12-15 11:58:13Z INFO EnvironmentCapabilitiesProvider] Adding 'PATH': '/etc/pcf8:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/local/ant/bin:/azp/n
+exus-iq-cli/nexus-iq-cli-2.7.0-01-linux-x86_64:/azp/nexus-iq-cli/nexus-iq-cli-2.7.0-01-linux-x86_64/bin:/home/AzDevOps/.dotnet/tools'
+[2025-12-15 11:58:13Z INFO EnvironmentCapabilitiesProvider] Adding 'PWD': '/azp'
+[2025-12-15 11:58:13Z INFO EnvironmentCapabilitiesProvider] Adding 'SHELL': 'True'
+[2025-12-15 11:58:13Z INFO EnvironmentCapabilitiesProvider] Skipping: 'SHLVL'
+[2025-12-15 11:58:13Z INFO EnvironmentCapabilitiesProvider] Adding 'VSO_AGENT_IGNORE': 'AZP_TOKEN,AZP_AWS_TOKEN,AZP_TOKEN_FILE'
+[2025-12-15 11:58:13Z VERB NixCapabilitiesProvider] Entering GetCapabilitiesAsync
+[2025-12-15 11:58:13Z INFO CapabilitiesBuilder] Which: 'android'
+[2025-12-15 11:58:13Z INFO CapabilitiesBuilder] Not found.
+[2025-12-15 11:58:13Z INFO CapabilitiesBuilder] Checking file: 'tools/android'
+[2025-12-15 11:58:13Z INFO CapabilitiesBuilder] Checking file: '/home/AzDevOps/Library/Developer/Xamarin/android-sdk-macosx/tools/android'
+[2025-12-15 11:58:13Z INFO CapabilitiesBuilder] Which: 'ant'
+[2025-12-15 11:58:13Z INFO CapabilitiesBuilder] Location: '{matches.First()}'
+[2025-12-15 11:58:13Z INFO CapabilitiesBuilder] Adding 'ant': '/usr/local/ant/bin/ant'
+[2025-12-15 11:58:13Z INFO CapabilitiesBuilder] Which: 'waagent'
+[2025-12-15 11:58:13Z INFO CapabilitiesBuilder] Not found.
+[2025-12-15 11:58:13Z INFO CapabilitiesBuilder] Which: 'bundle'
+[2025-12-15 11:58:13Z INFO CapabilitiesBuilder] Not found.
+[2025-12-15 11:58:13Z INFO CapabilitiesBuilder] Which: 'clang'
+[2025-12-15 11:58:13Z INFO CapabilitiesBuilder] Not found.
+[2025-12-15 11:58:13Z INFO CapabilitiesBuilder] Which: 'cmake'
+[2025-12-15 11:58:13Z INFO CapabilitiesBuilder] Not found.
+[2025-12-15 11:58:13Z INFO CapabilitiesBuilder] Which: 'curl'
+[2025-12-15 11:58:13Z INFO CapabilitiesBuilder] Location: '{matches.First()}'
+[2025-12-15 11:58:13Z INFO CapabilitiesBuilder] Adding 'curl': '/usr/bin/curl'
+[2025-12-15 11:58:13Z INFO CapabilitiesBuilder] Which: 'docker'
+[2025-12-15 11:58:13Z INFO CapabilitiesBuilder] Not found.
+[2025-12-15 11:58:13Z INFO CapabilitiesBuilder] Which: 'dotnet'
+[2025-12-15 11:58:13Z INFO CapabilitiesBuilder] Location: '{matches.First()}'
+[2025-12-15 11:58:13Z INFO CapabilitiesBuilder] Adding 'dotnet': '/usr/bin/dotnet'
+[2025-12-15 11:58:13Z INFO CapabilitiesBuilder] Which: 'git'
+[2025-12-15 11:58:13Z INFO CapabilitiesBuilder] Location: '{matches.First()}'
+[2025-12-15 11:58:13Z INFO CapabilitiesBuilder] Adding 'git': '/usr/bin/git'
+[2025-12-15 11:58:13Z INFO CapabilitiesBuilder] Which: 'gulp'
+[2025-12-15 11:58:13Z INFO CapabilitiesBuilder] Not found.
+[2025-12-15 11:58:13Z INFO CapabilitiesBuilder] Which: 'java'
+[2025-12-15 11:58:13Z INFO CapabilitiesBuilder] Location: '{matches.First()}'
+[2025-12-15 11:58:13Z INFO CapabilitiesBuilder] Adding 'java': '/usr/bin/java'
+[2025-12-15 11:58:13Z INFO CapabilitiesBuilder] Which: 'javac'
+[2025-12-15 11:58:13Z INFO CapabilitiesBuilder] Location: '{matches.First()}'
+[2025-12-15 11:58:13Z INFO CapabilitiesBuilder] Adding 'JDK': '/usr/bin/javac'
+[2025-12-15 11:58:13Z INFO CapabilitiesBuilder] Which: 'make'
+[2025-12-15 11:58:13Z INFO CapabilitiesBuilder] Location: '{matches.First()}'
+[2025-12-15 11:58:13Z INFO CapabilitiesBuilder] Adding 'make': '/usr/bin/make'
+[2025-12-15 11:58:13Z INFO CapabilitiesBuilder] Which: 'mvn'
+[2025-12-15 11:58:13Z INFO CapabilitiesBuilder] Location: '{matches.First()}'
+[2025-12-15 11:58:13Z INFO CapabilitiesBuilder] Adding 'maven': '/usr/bin/mvn'
+[2025-12-15 11:58:13Z INFO CapabilitiesBuilder] Which: 'xbuild'
+[2025-12-15 11:58:13Z INFO CapabilitiesBuilder] Not found.
+[2025-12-15 11:58:13Z INFO CapabilitiesBuilder] Checking file: '/Library/Frameworks/Mono.framework/Commands/xbuild'
+[2025-12-15 11:58:13Z INFO CapabilitiesBuilder] Which: 'msbuild'
+[2025-12-15 11:58:13Z INFO CapabilitiesBuilder] Not found.
+[2025-12-15 11:58:13Z INFO CapabilitiesBuilder] Checking file: '/Library/Frameworks/Mono.framework/Commands/msbuild'
+[2025-12-15 11:58:13Z INFO CapabilitiesBuilder] Which: 'node'
+[2025-12-15 11:58:13Z INFO CapabilitiesBuilder] Not found.
+[2025-12-15 11:58:13Z INFO CapabilitiesBuilder] Which: 'nodejs'
+[2025-12-15 11:58:13Z INFO CapabilitiesBuilder] Not found.
+[2025-12-15 11:58:13Z INFO CapabilitiesBuilder] Which: 'npm'
+[2025-12-15 11:58:13Z INFO CapabilitiesBuilder] Not found.
+[2025-12-15 11:58:13Z INFO CapabilitiesBuilder] Which: 'python'
+[2025-12-15 11:58:13Z INFO CapabilitiesBuilder] Not found.
+[2025-12-15 11:58:13Z INFO CapabilitiesBuilder] Which: 'python3'
+[2025-12-15 11:58:13Z INFO CapabilitiesBuilder] Location: '{matches.First()}'
+[2025-12-15 11:58:13Z INFO CapabilitiesBuilder] Adding 'python3': '/usr/bin/python3'
+[2025-12-15 11:58:13Z INFO CapabilitiesBuilder] Which: 'sh'
+[2025-12-15 11:58:13Z INFO CapabilitiesBuilder] Location: '{matches.First()}'
+[2025-12-15 11:58:13Z INFO CapabilitiesBuilder] Adding 'sh': '/usr/bin/sh'
+[2025-12-15 11:58:13Z INFO CapabilitiesBuilder] Which: 'svn'
+[2025-12-15 11:58:13Z INFO CapabilitiesBuilder] Not found.
+[2025-12-15 11:58:13Z INFO CapabilitiesBuilder] Which: 'ruby'
+[2025-12-15 11:58:13Z INFO CapabilitiesBuilder] Not found.
+[2025-12-15 11:58:13Z INFO CapabilitiesBuilder] Which: 'rake'
+[2025-12-15 11:58:13Z INFO CapabilitiesBuilder] Not found.
+[2025-12-15 11:58:13Z INFO CapabilitiesBuilder] Which: 'svn'
+[2025-12-15 11:58:13Z INFO CapabilitiesBuilder] Not found.
+[2025-12-15 11:58:13Z INFO CapabilitiesBuilder] Which: 'mdtool'
+[2025-12-15 11:58:13Z INFO CapabilitiesBuilder] Not found.
+[2025-12-15 11:58:13Z INFO CapabilitiesBuilder] Checking file: '/Applications/Xamarin Studio.app/Contents/MacOS/mdtool'
+[2025-12-15 11:58:13Z INFO CapabilitiesBuilder] Checking file: '/Applications/Visual Studio.app/Contents/MacOS/vstool'
+[2025-12-15 11:58:13Z INFO CapabilitiesBuilder] Which: 'generator'
+[2025-12-15 11:58:13Z INFO CapabilitiesBuilder] Not found.
+[2025-12-15 11:58:13Z INFO CapabilitiesBuilder] Checking file: '/Library/Frameworks/Xamarin.Android.framework/Commands/generator'
+[2025-12-15 11:58:13Z INFO CapabilitiesBuilder] Checking file: '/Library/Frameworks/Xamarin.Android.framework/Versions/Current/Version'
+[2025-12-15 11:58:13Z VERB CapabilitiesBuilder] Entering CheckToolOutputAsync
+[2025-12-15 11:58:13Z INFO CapabilitiesBuilder] Which: 'xcode-select'
+[2025-12-15 11:58:13Z INFO CapabilitiesBuilder] Not found.
+[2025-12-15 11:58:13Z VERB UserCapabilitiesProvider] Entering GetCapabilitiesAsync
+[2025-12-15 11:58:13Z INFO HostContext] Well known directory 'Bin': '/azp/bin'
+[2025-12-15 11:58:13Z INFO HostContext] Well known directory 'Root': '/azp'
+[2025-12-15 11:58:13Z INFO AgentCapabilitiesProvider] Adding 'Agent.Name': 'k8s-linux-scaledjob-dev-java-raboweb-srzpk-ql7t6'
+[2025-12-15 11:58:13Z INFO AgentCapabilitiesProvider] Adding 'Agent.OS': 'Linux'
+[2025-12-15 11:58:13Z INFO AgentCapabilitiesProvider] Adding 'Agent.OSArchitecture': 'X64'
+[2025-12-15 11:58:13Z INFO AgentCapabilitiesProvider] Adding 'InteractiveSession': 'True'
+[2025-12-15 11:58:13Z VERB VisualStudioServices] Created OAuth issued token provider instance 65942258 (Bearer)
+[2025-12-15 11:58:13Z WARN VisualStudioServices] Authentication failed with status code 401.
+Cache-Control: no-cache
+Pragma: no-cache
+P3P: CP="CAO DSP COR ADMa DEV CONo TELo CUR PSA PSD TAI IVDo OUR SAMi BUS DEM NAV STA UNI COM INT PHY ONL FIN PUR LOC CNT"
+WWW-Authenticate: Bearer authorization_uri=https://login.microsoftonline.com/6e93a626-8aca-4dc1-9191-ce291b4b75a1, Basic realm="https://tfsprodweu2.app.visualstudio.com/",
+TFS-Federated
+X-TFS-ProcessId: 4983132d-1814-4d88-9060-cf367f589768
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+ActivityId: 3485d06f-0e91-4d67-98e5-eac9e4ffc530
+X-TFS-Session: 5543928a-94c4-4509-9bcc-9db593b82f8d
+X-VSS-E2EID: f6346bab-7206-49c9-b15a-bf744bab34ea
+X-VSS-SenderDeploymentId: fa85298d-d7df-eba2-6cd2-9d3c9247a546
+X-Frame-Options: SAMEORIGIN
+X-TFS-FedAuthRealm: https://tfsprodweu2.app.visualstudio.com/
+X-TFS-FedAuthIssuer: https://dev.azure.com/raboweb/
+X-VSS-AuthorizationEndpoint: https://vssps.dev.azure.com/raboweb/
+X-VSS-ResourceTenant: 6e93a626-8aca-4dc1-9191-ce291b4b75a1
+X-VSS-S2STargetService: 00000002-0000-8888-8000-000000000000/visualstudio.com
+X-TFS-FedAuthRedirect: https://spsprodweu2.vssps.visualstudio.com/_signin?realm=dev.azure.com&reply_to=https%3A%2F%2Fdev.azure.com%2Fraboweb%2F_apis%2FconnectionData%3Fconn
+ectOptions%3D1%26lastChangeId%3D-1%26lastChangeId64%3D-1&redirect=1&hid=3f5f177f-c504-4f1c-9534-be6de83783f6&context=eyJodCI6MiwiaGlkIjoiNDYzMTgyYmItNTViMi00YTQxLTk0NzYtNTA
+2NTkwMDdkMWVkIiwicXMiOnt9LCJyciI6IiIsInZoIjoiIiwiY3YiOiIiLCJjcyI6IiJ90&lltid=c1ee4c35-310f-4575-805c-7c8a50faa428#ctx=eyJTaWduSW5Db29raWVEb21haW5zIjpbImh0dHBzOi8vbG9naW4ubW
+ljcm9zb2Z0b25saW5lLmNvbSIsImh0dHBzOi8vbG9naW4ubWljcm9zb2Z0b25saW5lLmNvbSJdfQ2
+Request-Context: appId=cid-v1:a32646d4-6542-4ff0-b4b1-416ef6b2d466
+Access-Control-Expose-Headers: Request-Context
+X-Content-Type-Options: nosniff
+X-Cache: CONFIG_NOCACHE
+X-MSEdge-Ref: Ref A: 5B70F19C0E0C48C5A4EFC553C309C3DA Ref B: AMS231032610049 Ref C: 2025-12-15T11:58:13Z
+Date: Mon, 15 Dec 2025 11:58:13 GMT
+
+[2025-12-15 11:58:13Z VERB VisualStudioServices] Started authentication
+[2025-12-15 11:58:13Z VERB VisualStudioServices] OAuth issued token provider instance 65942258 is acquiring a token
+[2025-12-15 11:58:13Z INFO RSAFileKeyManager] Loading RSA key parameters from file /azp/.credentials_rsaparams
+[2025-12-15 11:58:13Z INFO RSAFileKeyManager] Loading RSA key parameters from file /azp/.credentials_rsaparams

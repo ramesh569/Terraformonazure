@@ -192,7 +192,12 @@ github.com/open-telemetry/opentelemetry-collector-contrib/pkg/stanza/operator/he
         github.com/open-telemetry/opentelemetry-collector-contrib/pkg/stanza@v0.140.1/operator/helper/transformer.go:154
 GitHub
 
-2025-12-15T16:23:00.424Z        error   helper/transformer.go:154       Failed to process entry {"resource": {"service.instance.id": "1ddbd63a-b0a8-4eb7-b4ba-7eee82eed83e", "service.name": "otelcol", "service.version": "v0.140.0"}, "otelcol.component.id": "filelog", "otelcol.component.kind": "receiver", "otelcol.signal": "logs", "operator_id": "finalize", "operator_type": "move", "error": "move: field does not exist: attributes.message", "action": "send", "entry.timestamp": "0001-01-01T00:00:00.000Z", "log.file.path": "/azp/_diag/Agent_20251215-162259-utc.log", "log.file.name": "Agent_20251215-162259-utc.log"}
-github.com/open-telemetry/opentelemetry-collector-contrib/pkg/stanza/operator/helper.(*TransformerOperator).HandleEntryErrorWithWrite
+2025-12-15T17:37:35.848Z        error   helper/transformer.go:154       Failed to process entry {"resource": {"service.instance.id": "5778d025-1300-4d5e-bd75-bf3645a20f8e", "service.name": "otelcol", "service.version": "v0.140.0"}, "otelcol.component.id": "filelog", "otelcol.component.kind": "receiver", "otelcol.signal": "logs", "operator_id": "parser-azdo", "operator_type": "regex_parser", "error": "regex pattern does not match", "action": "send", "entry.timestamp": "0001-01-01T00:00:00.000Z", "log.file.name": "Agent_20251215-173735-utc.log", "log.file.path": "/azp/_diag/Agent_20251215-173735-utc.log"}
+GitHub
+
+2025-12-15T17:37:35.848Z        error   helper/transformer.go:154       Failed to process entry {"resource": {"service.instance.id": "5778d025-1300-4d5e-bd75-bf3645a20f8e", "service.name": "otelcol", "service.version": "v0.140.0"}, "otelcol.component.id": "filelog", "otelcol.component.kind": "receiver", "otelcol.signal": "logs", "operator_id": "azdo-severity", "operator_type": "severity_parser", "error": "log entry does not have the expected parse_from field: {\"parse_from\":\"attributes.severity\"}", "action": "send", "entry.timestamp": "0001-01-01T00:00:00.000Z", "log.file.name": "Agent_20251215-173735-utc.log", "log.file.path": "/azp/_diag/Agent_20251215-173735-utc.log"}
+GitHub
+
+2025-12-15T17:37:35.848Z        error   helper/transformer.go:154       Failed to process entry {"resource": {"service.instance.id": "5778d025-1300-4d5e-bd75-bf3645a20f8e", "service.name": "otelcol", "service.version": "v0.140.0"}, "otelcol.component.id": "filelog", "otelcol.component.kind": "receiver", "otelcol.signal": "logs", "operator_id": "finalize", "operator_type": "move", "error": "move: field does not exist: attributes.message", "action": "send", "entry.timestamp": "0001-01-01T00:00:00.000Z", "log.file.name": "Agent_20251215-173735-utc.log", "log.file.path": "/azp/_diag/Agent_20251215-173735-utc.log"}
 
 
